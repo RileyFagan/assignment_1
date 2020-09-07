@@ -1,7 +1,7 @@
 """
 Name: Riley Fagan
 Date started: 04/09/2020
-GitHub URL:
+GitHub URL: https://github.com/RileyFagan/assignment_1
 """
 
 import csv
@@ -122,6 +122,7 @@ def visited_location(places_list):
     return places_list
 
 
+# Visited location error checking
 def visited_location_error_check(places_list):
     print("Enter the number of a place to mark as visited")
     input_text = ">>> "
